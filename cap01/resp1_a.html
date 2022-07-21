@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ex1_7</title>
+    <title>resp1_a</title>
 </head>
 
 <body>
     <script>
-        // lê um dado de entrada
+        // lê os dados de entrada
         var num = Number(prompt("Número: "));
-        // calcula o dobro
-        var dobro = num + num;
-        // exibe a resposta
-        alert("Dobro é: " + dobro);
+        // calcula o número anterior e posterior
+        var antes = num - 1;
+        var depois = num + 1;
+        // exibe a saida dos dados
+        alert("Número: " + num + "\nVizinhos: " + antes + " e " + depois);
     </script>
 </body>
 
