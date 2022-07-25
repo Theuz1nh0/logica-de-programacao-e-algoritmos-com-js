@@ -10,9 +10,13 @@ body {
 }
 
 main {
-    width: 17rem;
+    width: 20rem;
 }
 
 hr {
     width: 100%;
+}
+
+h1 {
+    text-align: center;
 }
