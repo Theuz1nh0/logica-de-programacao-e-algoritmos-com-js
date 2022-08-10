@@ -51,7 +51,7 @@ function apostarNumero() {
         }
     }
 
-    inNumero.value = ""
+    inNumero.value = "";
     inNumero.focus();
 }
 var btApostar = document.getElementById("btApostar");
