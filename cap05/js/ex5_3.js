@@ -20,7 +20,7 @@ function adicionarCarros() {
     inPreco.value = "";
     inModelo.focus();
 
-    listaCarris(); // chama function que lista os carros
+    listarCarros(); // chama function que lista os carros
 }
 var btAdicionar = document.getElementById("btAdicionar");
 btAdicionar.addEventListener('click', adicionarCarros);
