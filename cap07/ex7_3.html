@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>ex7_3</title>
+</head>
+<body>
+    <img src="./img/ex7_3.jpg" alt="Pizzaria" class="normal">
+    <main>
+        <h1>Pizzaria Avenida - Controle de Pedidos</h1>
+        <p>Item do Pedido:
+            <input type="radio" name="produto" id="rbPizza" checked autofocus> Pizza
+            <input type="radio" name="produto" id="rbBebida"> Bebida
+            <span>Item:</span>
+            <select id="inPizza">
+                <option value="media">Pizza Média</option>
+                <option value="grande">Pizza Grande</option>
+                <option value="familia">Pizza Familia</option>
+            </select>
+            <select id="inBebida" class="oculta">
+                <option value="refri">Refrigerante</option>
+                <option value="suco">Jarra de Suco</option>
+                <option value="agua">Água Mineral</option>
+            </select>
+        </p>
+
+        <p>Detalhes do Item:
+            <input type="text" id="inDetalhes" class="detalhes">
+            <input type="button" value="Adicionar" id="btAdicionar">
+        </p>
+        <pre id="outPedido"></pre>
+    </main>
+    <script src="./js/ex7_3.js"></script>
+</body>
+</html>
