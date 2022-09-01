@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>resp7_c</title>
+</head>
+
+<body>
+    <img src="./img/exerc.jpg" alt="Desafio" class="normal">
+    <main>
+        <h1>Veterinária Avenida</h1>
+        <p>Valor da Vacina:
+            <input type="text" id="inValor" class="aDireita">
+        </p>
+        <p>Possui ConVênio:
+            <input type="radio" name="convenio" id="rbConvenioSim"> Sim
+            <input type="radio" name="convenio" id="rbConvenioNao" checked> Não
+        </p>
+        <p class="oculta" id="prConvenio">Convênio:
+            <select id="inConvenio">
+                <option value="amigoDosAnimais">Amigo dos Animais</option>
+                <option value="saudeAnimal">Saúde Animal</option>
+            </select>
+        </p>
+        <p>
+            <input type="button" value="Calcular Desconto" id="btCalcular">
+        </p>
+        <h3 id="outDesconto"></h3>
+        <h3 id="outValor"></h3>
+    </main>
+    <script src="./js/resp7_c.js"></script>
+</body>
+
+</html>
