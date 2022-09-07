@@ -1,0 +1,30 @@
+img {
+    max-width: 100%;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+.oculta {
+    display: none;
+}
+
+.exibe {
+    display: inline;
+}
+
+.coresBrasil {
+    color: black;
+    background-color: yellow;
+}
+
+.coresFranca {
+    color: white;
+    background-color: red;
+}
+
+.coresMexico {
+    color: black;
+    background-color: greenyellow;
+}
