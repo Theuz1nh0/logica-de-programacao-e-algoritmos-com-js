@@ -28,3 +28,19 @@ pre {
     color: black;
     background-color: greenyellow;
 }
+
+.aDireita {
+    text-align: right;
+}
+
+.noCentro {
+    text-align: center;
+}
+
+.execucao {
+    background-color: red;
+    color: white;
+    display: block;
+    font-style: italic;
+    padding-left: 10px;
+}

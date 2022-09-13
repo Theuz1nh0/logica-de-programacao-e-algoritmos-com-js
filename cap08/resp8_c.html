@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>resp8_c</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="./img/exerc.jpg" alt="Desafio">
+            </div>
+            <div class="col-sm-9">
+                <h1>Herbie: Controle de Serviços</h1>
+                <label for="inServico">Serviço - Veícilo</label>
+                <input type="text" id="inServico" class="form-control">
+                <input type="button" value="Adicionar Serviço" class="btn btn-primary" id="btAdicionar">
+                <input type="button" value="Executar Serviço" class="btn btn-danger" id="btExecutar">
+                <h3 class="aDireita">Serviços Pendentes: <span id="outNumServicos"></span></h3>
+                <p class="oculta" id="outExecucao">Serviço em Execução</p>
+                <h3 class="noCentro" id="outServico"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="./js/resp8_c.js"></script>
+</body>
+
+</html>
