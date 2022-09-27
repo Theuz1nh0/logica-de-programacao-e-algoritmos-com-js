@@ -42,3 +42,15 @@ img.moeda0_10 {
 .aDireita {
     text-align: right;
 }
+
+.italico {
+    font-style: italic;
+}
+
+.semDisplay {
+    display: none;
+}
+
+.comDisplay {
+    display: block;
+}

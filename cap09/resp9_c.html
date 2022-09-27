@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>resp9_c</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="./img/exerc.jpg" alt="desafio" class="imgProg">
+            </div>
+            <div class="col-sm-8" id="container">
+                <h1>Copa do Brasil - Classificados</h1>
+
+                <p>
+                    <label for="inClube">Clube:</label>
+                    <input type="text" class="form-control" id="inClube">
+                </p>
+
+                <p>
+                    <input type="button" class="btn btn-primary" value="Adicionar" id="btAdicionar">
+                    <input type="button" class="btn btn-success" value="Mostrar Tabela de jogos" id="btMostar">
+                    <input type="button" class="btn btn-danger" value="Novos Clubes" id="btNovosClubes">
+                </p>
+
+                <p id="tagsH5"></p>
+
+                <h3 class="semDisplay" id="h3TituloTabela">Tabela de Jogos</h3>
+                <table class="table table-striped" id="tbClubes"></table>
+            </div>
+        </div>
+    </div>
+    <script src="./js/resp9_c.js"></script>
+</body>
+
+</html>
