@@ -56,7 +56,14 @@ function mostrarTabela() {
         numLinhas++
     }
 
+    btAdicionar.disabled = true;
+    btMostar.disabled = true;
 }
 var btMostar = document.getElementById("btMostar");
 btMostar.addEventListener("click", mostrarTabela);
 
+function novaTabela() {
+    location.reload();
+}
+var btNovosClubes = document.getElementById("btNovosClubes");
+btNovosClubes.addEventListener("click", novaTabela);
